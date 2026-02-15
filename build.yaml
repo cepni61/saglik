@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      injectable_generator:injectable_builder:
+        enabled: true
+        options:
+          auto_register: true
+          class_name_pattern: "Impl$"
+      drift_dev:
+        enabled: true
+        options:
+          store_date_time_values_as_text: true
