@@ -24,7 +24,9 @@
       "Bash(flutter pub run build_runner build:*)",
       "Bash(/c/Users/omer.uygun/flutter/flutter/bin/flutter pub run build_runner build:*)",
       "Bash(C:/Users/omer.uygun/flutter/flutter/bin/flutter.bat analyze:*)",
-      "Bash(where:*)"
+      "Bash(where:*)",
+      "Bash(echo:*)",
+      "Bash(git checkout:*)"
     ]
   }
 }
