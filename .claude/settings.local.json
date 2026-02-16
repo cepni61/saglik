@@ -10,7 +10,21 @@
       "Bash(flutter run:*)",
       "Bash(git init:*)",
       "Bash(git branch:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo view:*)",
+      "Bash(flutter build:*)",
+      "Bash(python:*)",
+      "Bash(ipconfig:*)",
+      "Bash(findstr:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(flutter doctor:*)",
+      "Bash(flutter pub run build_runner build:*)",
+      "Bash(/c/Users/omer.uygun/flutter/flutter/bin/flutter pub run build_runner build:*)",
+      "Bash(C:/Users/omer.uygun/flutter/flutter/bin/flutter.bat analyze:*)",
+      "Bash(where:*)"
     ]
   }
 }

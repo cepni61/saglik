@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:saglik/core/di/injection.dart';
+import 'package:saglik/features/ingredient_scan/presentation/pages/scan_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -67,8 +68,24 @@ class PlaceholderHomePage extends StatelessWidget {
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 32.0),
               child: Text(
-                'Proje Clean Architecture yapısıyla kuruldu.\nFeature geliştirmeye başlayabilirsiniz.',
+                'Ürün etiketlerini tarayın ve sağlık skorunu görün',
                 textAlign: TextAlign.center,
+              ),
+            ),
+            const SizedBox(height: 48),
+            ElevatedButton.icon(
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const ScanPage()),
+                );
+              },
+              icon: const Icon(Icons.camera_alt),
+              label: const Text('Taramaya Başla'),
+              style: ElevatedButton.styleFrom(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
+                textStyle: const TextStyle(fontSize: 18),
               ),
             ),
           ],
